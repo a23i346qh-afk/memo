@@ -170,7 +170,6 @@
                 "C:/Users/kurug/.platformio/packages/framework-espidf/components/rt/include",
                 "C:/Users/kurug/.platformio/packages/framework-espidf/components/spiffs/include",
                 "C:/Users/kurug/.platformio/packages/framework-espidf/components/wifi_provisioning/include",
-                "C:/Users/kurug/PlatformIOProjects/rensilyuu/components/bluepad32/src",
                 ""
             ],
             "browse": {
@@ -338,7 +337,6 @@
                     "C:/Users/kurug/.platformio/packages/framework-espidf/components/rt/include",
                     "C:/Users/kurug/.platformio/packages/framework-espidf/components/spiffs/include",
                     "C:/Users/kurug/.platformio/packages/framework-espidf/components/wifi_provisioning/include",
-                    "C:/Users/kurug/PlatformIOProjects/rensilyuu/components/bluepad32/src",
                     ""
                 ]
             },

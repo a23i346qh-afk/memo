@@ -20,6 +20,14 @@ CMAKE_ADDR2LINE:FILEPATH=C:/Users/kurug/.platformio/packages/toolchain-xtensa-es
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Users/kurug/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32-elf-ar.exe
 
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_ASM_COMPILER_AR:FILEPATH=C:/Users/kurug/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar.exe
+
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_ASM_COMPILER_RANLIB:FILEPATH=C:/Users/kurug/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe
+
 //ASM Compiler Base Flags
 CMAKE_ASM_FLAGS:STRING='-mlongcalls '
 
@@ -38,6 +46,14 @@ CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=
+
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_AR:FILEPATH=C:/Users/kurug/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar.exe
+
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/Users/kurug/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe
 
 //C++ Compiler Base Flags
 CMAKE_CXX_FLAGS:STRING=-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy
@@ -399,6 +415,11 @@ rensilyuu_SOURCE_DIR:STATIC=C:/Users/kurug/PlatformIOProjects/rensilyuu
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_COMPILER_AR
+CMAKE_ASM_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_COMPILER_RANLIB
+CMAKE_ASM_COMPILER_RANLIB-ADVANCED:INTERNAL=1
+CMAKE_ASM_COMPILER_WORKS:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ASM_FLAGS
 CMAKE_ASM_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ASM_FLAGS_DEBUG
@@ -423,6 +444,10 @@ CMAKE_COMMAND:INTERNAL=C:/Users/kurug/.platformio/packages/tool-cmake/bin/cmake.
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Users/kurug/.platformio/packages/tool-cmake/bin/cpack.exe
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/Users/kurug/.platformio/packages/tool-cmake/bin/ctest.exe
+//ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
+CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
+CMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG

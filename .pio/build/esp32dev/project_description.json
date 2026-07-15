@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "rensilyuu",
-    "project_version":    "d85fadb-dirty",
+    "project_version":    "4ce707a-dirty",
     "project_path":       "C:/Users/kurug/PlatformIOProjects/rensilyuu",
     "idf_path":           "C:/Users/kurug/.platformio/packages/framework-espidf",
     "build_dir":          "C:/Users/kurug/PlatformIOProjects/rensilyuu/.pio/build/esp32dev",
